@@ -4,7 +4,7 @@ Choose your category and drag the famous people to their right place on the time
 ## Update (added after submission)
 This was my final project for the [Harvard cs50 web course](https://www.harvardonline.harvard.edu/course/cs50s-web-programming-python-javascript)
 
-I have now developed this project further and deployed it online so ** *you* can try it out** over att [thetimeline.se](https://thetimeline.se). It's still under development but there are many new features and fixes done since this version. However i have not yet made the deployed version public on github, that will come when i have implemented even more features and fixed some bugs.  
+I have now developed this project further and deployed it online so ***you* can try it out** over att [thetimeline.se](https://thetimeline.se). It's still under development but there are many new features and fixes done since this version. However i have not yet made the deployed version public on github, that will come when i have implemented even more features and fixed some bugs.  
 
 
 Click on image below to view a preview on Youtube
