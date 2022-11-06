@@ -1,0 +1,46 @@
+.cardspace{
+    display: flex;
+    height: 18em;
+  }  
+
+  .droppZone {
+    background-color: #00000050;
+    max-width: 142em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em auto;
+    border-radius: 50px;
+    vertical-align: middle;
+    align-content: center;    
+  }
+
+  .boardInfo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #finishBtn {
+    width: 15em;
+    height: 5em;
+  }
+
+  #newgameBtn {
+    width: 10em;
+    height: 3em;
+  }
+
+  /*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+  .droppZone {
+    display: grid;
+    flex-wrap: none;  
+  }
+  .cardspace{
+    display: flex;
+    height: 5em;
+    width: 30em;
+  }
+
+}

@@ -1,0 +1,84 @@
+.card {
+    position: relative;
+    background-image: url("cardimg.png");
+    background-position: center center;
+    background-repeat:   no-repeat;
+    background-size: 75%;
+    background-color: #004996;
+    height: 16em;
+    width: 12em;
+    margin: 1em;
+    border-radius: 30px;
+    box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+}
+
+.card:active{
+    background-color: #ff9505;
+}
+
+.right {
+    background-color: green;
+}
+.wrong {
+    background-color: darkred;
+}
+
+.name{
+    font-size: 160%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-bottom: 0.8em;
+}
+
+.born {
+    padding-top: 0.6em;
+}
+
+.hide{
+    display: none;
+}
+
+/*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+
+    .card {
+        position: relative;
+        background-image: url("cardimg.png");
+        background-position: center center;
+        background-repeat:   no-repeat;
+        background-size: 10%;
+        background-color: #004996;
+        display: flex;
+        justify-content: space-around;
+        height: 4em;
+        width: 100%;
+        margin: 1em;
+        border-radius: 30px;
+        box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    }
+    
+    .name{
+        font-size: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        padding-bottom: 0.8em;
+    }
+
+    .right {
+        background-color: green;
+    }
+    .wrong {
+        background-color: darkred;
+    }
+    
+  }
+  

@@ -1,0 +1,71 @@
+.btn {
+    background-color: #ff9505;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+}
+
+.btn:hover{
+    background-color: #FFB41F;
+}
+
+
+.btn:active{
+    background-color: lightgreen;
+}
+
+.current {
+    background-color: lightgreen;
+}
+
+.current:hover {
+    background-color: lightgreen;
+}
+
+
+.startgame {
+    background-color: #ff9505;
+    width: 15em; 
+    min-width: 5em;
+    box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+}
+
+.startgame:hover {
+    background-color: #FFB41F;       
+}
+
+.disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    width: 15em; 
+    min-width: 5em; 
+}
+.disabled:hover {
+    background-color: grey;
+}
+
+#finishBtn{
+    height: 3em;
+}
+
+/*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+
+    .btn {
+        width: 8em;
+        height: 1.5em;
+    }
+
+  }
